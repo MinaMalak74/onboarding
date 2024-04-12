@@ -31,7 +31,7 @@ class _SplashScreenState extends State<SplashScreen> {
               gradient: LinearGradient(
                   begin: Alignment.topRight,
                   end: Alignment.bottomLeft,
-                  colors: [Color(0xFF003C43), Color(0xFF77B0AA),]
+                  colors: [Color(0xFF388175), Color(0xFF388175),]
               ),
             ),
             child: Column(
@@ -40,7 +40,7 @@ class _SplashScreenState extends State<SplashScreen> {
               children: [
                 Image.asset(
                   "assets/logo.png",
-                  color: Color(0xffE3FEF7),
+                  color: Color(0xffFFFFFF),
                 ),
                 AnimatedTextKit(
 
@@ -48,7 +48,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     TyperAnimatedText('Supportify',
                         speed: Duration(milliseconds: 150),
                         textStyle: const TextStyle(
-                            color: Color(0xffE3FEF7),
+                            color: Color(0xffFFFFFF),
                             fontWeight: FontWeight.w700,
                             fontSize: 40)),
 

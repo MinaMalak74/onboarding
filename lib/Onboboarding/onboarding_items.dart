@@ -6,22 +6,22 @@ class OnboardingItems{
     OnboardingInfo(
         title: "National Campaign for Charitable Worky",
         descriptions: "Be part of the giving process",
-        image: "assets/onboarding1.jpg"),
+        image: "assets/onboarding1.png"),
 
     OnboardingInfo(
         title: "National Campaign for Charitable Work",
         descriptions: " Be part of the giving process",
-        image: "assets/onboarding2.jpg"),
+        image: "assets/onboarding2.png"),
 
     OnboardingInfo(
         title: "National Campaign for Charitable Work",
         descriptions: "Be part of the giving process",
-        image: "assets/onboarding3.jpg"),
+        image: "assets/onboarding3.png"),
 
     OnboardingInfo(
         title: "National Campaign for Charitable Work",
         descriptions: "Be part of the giving process",
-        image: "assets/onboarding4.jpg"),
+        image: "assets/onboarding4.png"),
 
 
   ];
