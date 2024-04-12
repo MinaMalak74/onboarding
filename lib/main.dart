@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:on_bording/splashscreen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'Onboboarding/onboarding_view.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: onboarding? const Home() : const OnboardingView(),
+      home: SplashScreen(),
     );
   }
 }
