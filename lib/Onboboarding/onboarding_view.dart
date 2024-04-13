@@ -3,7 +3,9 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 import '../Components/color.dart';
+import '../Login_signup/Signup.dart';
 import '../home.dart';
+import '../Login_signup/loginScreen.dart';
 import 'onboarding_items.dart';
 
 class OnboardingView extends StatefulWidget {
@@ -139,7 +141,7 @@ class _OnboardingViewState extends State<OnboardingView> {
             // same key
             if (!mounted) return;
             Navigator.pushReplacement(
-                context, MaterialPageRoute(builder: (context) => Home()));
+                context, MaterialPageRoute(builder: (context) => loginScreen()));
           },
           child: const Text(
             "Start!",
